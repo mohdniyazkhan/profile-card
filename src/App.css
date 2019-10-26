@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main_card{
+  width: 500px;
+  min-height: 400px;
+  height: 100%;
+  display: block;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  background-color: aqua;
+  padding: 10px;
+  position: relative;
+}
+.main_logo{
+  width: 40px;
+  height: 40px;
+}
+.main_headline{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+.credit_box{
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  background: #fff;
+  padding: 7px;
+  color: blueviolet;
+  font-weight: bold;
+}
+.credit_name{
+    display: flex;
+    align-items: center;
+}
+.message__headline{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.message{
+  padding-top: 15px;
+}
+.message__body{
+  margin-bottom: 10px;
+}
+.credit_image{
+  width: 40px;
+  height: 40px;
+}
+.message{
+  position: absolute;
+  bottom:10px;
+}
